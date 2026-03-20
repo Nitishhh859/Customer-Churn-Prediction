@@ -43,6 +43,12 @@ The goal is to build a model that identifies customers at risk of leaving.
 
 ---
 
+## 📥 Dataset
+
+Download dataset from:
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
+---
 ## 📊 Results
 - ✅ Accuracy: ~78%  
 - 📉 Confusion Matrix  
@@ -55,8 +61,24 @@ The goal is to build a model that identifies customers at risk of leaving.
 
 ---
 
+## 💡 Key Insights
+
+- Customers with higher monthly charges are more likely to churn
+- Contract type plays a major role in retention
+- Short tenure customers are at higher risk
+
+---
+
+## 🚀 Future Improvements
+
+- 🔥 Random Forest / XGBoost
+- 🌐 Streamlit Web App
+- 📊 Feature Importance Visualization
+
+---
+
 ## ▶️ How to Run
 
 ```bash
 pip install -r requirements.txt
-python churn.py
+python churn.py``` 
